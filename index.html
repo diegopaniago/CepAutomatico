@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CEP Automático</title>
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="consultaCEP.js"></script>
+</head>
+<body>
+	<label>CEP:</label>
+	<input id="cep" type="text" placeholder="Inisira um CEP" onblur="consultarCEP()" />
+	<label>Logradouro:</label>
+	<input id="logradouro" value="" disabled/>
+	<label>Bairro:</label>
+	<input id="bairro" value="" disabled />
+	<label>Cidade:</label>
+	<input id="cidade" value="" disabled />
+</body>
+</html>
