@@ -1,7 +1,7 @@
 {
   "name": "cepautomatico",
   "version": "1.0.0",
-  "description": "Um biblioteca para preenchimento automatico de endereço informando o CEP",
+  "description": "Uma biblioteca para preenchimento automatico de endereço informando o CEP",
   "main": "dist/consultaCEP.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
