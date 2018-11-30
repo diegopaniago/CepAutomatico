@@ -1,0 +1,39 @@
+{
+  "name": "cepautomatico",
+  "version": "1.0.0",
+  "description": "Um biblioteca para preenchimento automatico de endereço informando o CEP",
+  "main": "dist/consultaCEP.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build-exemplo": "npm run build && webpack --config webpackExemplo.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegopaniago/CepAutomatico.git"
+  },
+  "keywords": [
+    "cep"
+  ],
+  "author": "Diego Garcia Bernardes Paniago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegopaniago/CepAutomatico/issues"
+  },
+  "homepage": "https://github.com/diegopaniago/CepAutomatico#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "6.24.1",
+    "babel-register": "6.26.0",
+    "chai": "4.2.0",
+    "jsdom": "13.0.0",
+    "mocha": "5.2.0",
+    "testdouble": "^3.9.1",
+    "webpack": "4.26.1",
+    "webpack-cli": "3.1.2"
+  }
+}
